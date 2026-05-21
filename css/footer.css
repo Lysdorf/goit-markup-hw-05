@@ -98,9 +98,19 @@
     height: 40px;
     background-color: rgba(0, 0, 0, 0);
     color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-input:focus-within {
+.footer-input::placeholder {
+    color: #fff;
+}
+
+.footer-input:focus {
+    border-color: #31d0aa;
     outline: none;
 }
 
@@ -125,6 +135,6 @@
 
 .subscribe-btn:hover,
 .subscribe-btn:focus {
-    background-color: #404bbf;
+    background-color: #31d0aa;
     cursor: pointer;
 }
