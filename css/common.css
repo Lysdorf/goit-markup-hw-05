@@ -50,3 +50,7 @@ img {
     clip-path: inset(100%);
     margin: -1px;
 }
+
+.color-accent {
+    color: #4d5ae5;
+}
